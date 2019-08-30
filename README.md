@@ -7,4 +7,6 @@ mkdir -p /mnt/dockeer-prometheus-grafana && cd $_
 
 git clone https://github.com/Zasimovich/Prometheus-Grafana
 
+cd Prometheus-Grafana
+
 chown 65534:65534 ./data
